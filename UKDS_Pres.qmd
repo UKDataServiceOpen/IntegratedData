@@ -1,0 +1,151 @@
+---
+title: "Integrated Survey Data"
+subtitle: "Overview and conditions of access"
+author: 
+  name: Pierre Walthéry, UK Data Service
+  url: https://ukdataservice.ac.uk/
+date: "October 2025"
+mainfont: "Open Sans"
+sansfont: "Open Sans"
+format: 
+  revealjs:
+    scrollable: true
+    header-logo: "pics/UKDS_Logos_Col_Grey_300dpi.png"
+    css: logo.css
+    embed-resources: true
+    theme: [default, tooling.scss]
+ 
+#    title-slide-attributes:    
+#      data-background-image: "pics/cloud.jpg"
+#      data-background-opacity: ".5"
+filters:
+  - reveal-header
+
+---
+
+## Plan of the presentation
+
+1. Most common survey  with integrated data
+2. Typical data integreated with surveys
+3. Accessing secure integrated datasets
+
+
+# 1. Which studies include integrated data?
+
+## Overview
+
+- Partly depends on the kind of linked data
+- Major longitudinal studies
+
+  - Birth Cohort studies
+  - Next Steps and ELSA
+  - Understanding Society
+  
+- A few large scale government surveys
+
+    - ASHE
+
+## Birth cohort studies
+
+- One slide intro to the Cohort Studies
+
+## Understanding Society
+
+- One page intro to ELSA and Next Steps
+
+# 2. What kind of data is integrated with UKDS surveys?
+
+
+## Overview 
+ 
+ - Administrative records
+ 
+  - Health
+  - Education
+  - Social security 
+  
+ - Social media/Digital trace
+
+ 
+
+# What is on offer: examples
+
+## 1. Genetic risk data
+
+- Polygenic scores (PGI) about health and social outcomes
+- Gene combinations associated with probability of certain outcomes  
+
+  - 45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
+  
+  - Available on the  Birth Cohorts and Next Steps datasets
+  
+  - Subsamples limited to 'Europeans' from a genetic perspective
+
+:::  aside
+  *More information*: [Morris TT et al (2025)](https://doc.ukdataservice.ac.uk/doc/9437/mrdoc/pdf/ukds_user_guide_cls_pgis.pdf) 
+:::
+
+## 2. Hospital episodes data
+
+- NHS data about all hospital admissions in England. 
+- Four datasets: 
+  - Episodes of using: Accident and Emergency ; Admitted Patient Care; Adult Critical Care; Outpatients
+  - Mostly available for 2007/9-2023
+  
+- Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
+- Available for the NCDS Birth Cohort 
+
+::: aside
+*More  information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf) 
+::: 
+
+## 3. School inspection data
+
+- OFSTED 'State of the nation': anonymised data on latest schools inspections outcomes of 22,000 open schools
+- Linked with the MCS, currently covers years 2005 to 2019
+- Data on a wide range of topics. such as:
+
+  - Quality of teaching, learning and assessment
+  - Effectiveness of leadership and management
+  - Pupils' achievement (aggregated) (2005-2015)
+  - Behaviour and safety of pupils (2005-2015)
+
+::: aside
+*More information* [Peters A et al (2025)](https://doc.ukdataservice.ac.uk/doc/9436/mrdoc/pdf/mcs_ofsted_user_guide_v1.pdf)
+:::
+
+## 4. NEST pension data
+
+- Main employer pensions scheme for UK employees 
+- Covers 1,000,000 employers, 11 millions employees
+- Linked to consenting Understanding Wave 11 respondents (about 12,000)
+- Data about:
+
+  - Employer and employee characteristics
+  - Current pension status 
+  - Pension contributions characteristics
+
+::: aside
+*More information: * [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
+::: 
+## 5. Is that everything?
+
+- List of additional admin data available (ie DVLA/understanding society)
+- Highlights from ReShare
+
+# 3. How to access integrated data
+
+## Accessing secure data
+
+- A couple of slides on this (I will contact Essex as suggested )
+
+
+
+## Additional resources
+
+- [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/)
+- [NHS Hospital Episode Statistics](https://digital.nhs.uk/services/hospital-episode-statistics#:~:text=Hospital%20Episode%20Statistics%20(HES)%20is,at%20NHS%20hospitals%20in%20England.)
+- OFSTED Page
+- [SAIL](https://saildatabank.com/): Secure Anonymised Information Linkage (Wales)
+- Health data for cohort surveys (CLS presentation)
+- [Integrated Data Service](https://app.integrateddataservice.gov.uk/data-catalogue)
