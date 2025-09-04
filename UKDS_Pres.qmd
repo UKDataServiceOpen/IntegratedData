@@ -2,7 +2,7 @@
 title: "Integrated Survey Data"
 subtitle: "Overview and conditions of access"
 author: 
-  name: Pierre Walthéry, UK Data Service
+  name: Pierre Walthéry & Vanessa Higgins, UK Data Service
   url: https://ukdataservice.ac.uk/
 date: "October 2025"
 mainfont: "Open Sans"
