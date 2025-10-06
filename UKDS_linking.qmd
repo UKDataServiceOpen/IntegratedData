@@ -200,9 +200,7 @@ Integrated data:
 ::: aside
 *More information: * [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
 ::: 
-## 5. Is that everything?
-
-- One off projects from ReShare:
+## 5. Studies deposited on ReShare
 
 ::: {layout-ncol=2}
 ![](pics/reshare1.png)
