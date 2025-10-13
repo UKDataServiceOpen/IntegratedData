@@ -2,7 +2,7 @@
 title: "Integrated Survey Data"
 subtitle: "Overview and conditions of access"
 author: 
-  name: Pierre Walthéry & Vanessa Higgins
+  name: Pierre Walthéry
 #  url: https://ukdataservice.ac.uk/
 institute: UK Data Service
 
@@ -126,6 +126,12 @@ Integrated data:
     -   Transport, mobility, and commuting patterns
     -   Environmental behaviours, and related attitudes
 
+## Other studies
+
+- Next Steps: 16,000 people in England born 1980-90, from secondary school age (i.e. 13-14) onwards; initially designed by DfE to examine determinants of school achievement
+- ELSA - English Longitudinal Study of Ageing: follows a sample of  19,000  people aged over 50 to understand all aspects of ageing in England. Started in 2002, biennial waves. Data on  physical and mental health (incl. well-being), financial aspects, and attitudes around ageing.
+
+
 # Part 2
 
 ![](pics/part_2.png){fig-alt="Section title with icons: What kind of non-survey data is  integrated   with UKDS surveys?"}
@@ -134,7 +140,7 @@ Integrated data:
 
 -   Administrative records
 
-    -   ie data collected by a public ie state controlled authority: government department, the NHS
+    -   ie *data collected by a public ie state controlled authority*: government department, the NHS
     -   Health: NHS, SHS: medical records ie outpatient attendance, hospitalisation episodes, maternity
     -   Education: National Pupil Database, school profile/teacher survey; student loan data, OFSTED data
     -   Pollution; green space deciles; PAYE data
@@ -157,7 +163,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 
     -   A vector of probabilities attached to respondents' record according to their their genetic information 
     -   45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
-    -   Available on the Birth Cohorts and Next Steps datasets
+    -   Available on the birth cohorts studies,  ELSA & Next Steps datasets
     -   Subsamples limited to genetic 'Europeans' 
     
 ::: aside
@@ -196,7 +202,8 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## 4. NEST pension data
 
--   Main employer pensions scheme for UK employees
+-  (National Employment Saving Trust)
+-   Main occupational (i.e. employer led) pensions scheme for UK employees
 
 -   Covers 1,000,000 employers, 11 millions employees
 
@@ -223,11 +230,11 @@ Let us now go through a few concrete example of linked data that can be accessed
 - 5,732,838 transactions in England and Wales, 79% of the total between 2011 and 2019,
 
 ::: {.notes}
-So far I have mentioned large scale longitudinal studies. I also need to mention another kind of data held at UK Data Service: ReShare. 
-Anyone who produces ESRC-funded data is required to have it deposited with the UKDS
-Some of these studies include linked data.
-This particular dataset links the Land Registry Price Paid Data (PPD) with property size information from the official open Domestic Energy Performance Certificates (EPCs).
-Enables more detailed, richer analysis of the housing market and property purchases.
+- So far I have mentioned large scale longitudinal studies. I also need to mention another kind of data held at UK Data Service: ReShare. 
+- Anyone who produces ESRC-funded data is required to have it deposited with the UKDS
+- Some of these studies include linked data.
+- This particular dataset links the Land Registry Price Paid Data (PPD) with property size information from the official open Domestic Energy Performance Certificates (EPCs).
+- Enables more detailed, richer analysis of the housing market and property purchases.
 :::
 
 # Part 3
@@ -235,7 +242,7 @@ Enables more detailed, richer analysis of the housing market and property purcha
 ::: {.notes}
 
 - So far I have talked about the data that we hold, but it is also interesting to know how to access it.
-- The majority of lnked data - exception of housing transactions) is highly sensitive, contains personal information at risk of disclosure according to GDPR.
+- The majority of linked data - exception of housing transactions) is highly sensitive, contains personal information at risk of disclosure according to GDPR.
 - Special, restricted conditions of access have been set out in order to protect the anonymity of respondents.
 
 :::
@@ -245,6 +252,7 @@ Enables more detailed, richer analysis of the housing market and property purcha
 ## Secure datasets at the UK Data Service
 
 
+-   UKDS Secure Lab
 -   Access via encrypted web-based interface (\<Citrix VPN technology)
 
 -   No data download, access only from organisational desktop, in the UKDA Safe Room, one of the SafePods across the UK, and abroad via partner organisations
@@ -280,11 +288,11 @@ Enables more detailed, richer analysis of the housing market and property purcha
 
 The course we recognise as valid for SecureLab access is the *Safe Researcher training (SRT) course* which covers:
 
--   Data security and personal responsibility, including legal background, security model, breaches and penalties.
+-   *Data security and personal responsibility* including legal background, security model, breaches and penalties.
 
--   Statistical Disclosure Control – how to make statistical outputs safe and which principles are used.
+-   *Statistical Disclosure Control* – how to make statistical outputs safe and which principles are used.
 
--   Using the SecureLab – how to use the interface and how to prepare and request data imports and suitable statistical outputs
+-   *Using the SecureLab* – how to use the interface and how to prepare and request data imports and suitable statistical outputs
 
 ## Secure access user agreement
 
@@ -300,14 +308,37 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
     -   Our outputs release policy.
     -   Our citation and copyright requirements.
 
+## Searching for data
+
+![](pics/search.png)
+
+## Resources and links
+
+- Polygenic scores:
+
+    - [ELSA](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773#details); [Next Steps](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848#details); [Millenium Cohort Study](https://datacatalogue.ukdataservice.ac.uk/studies/study/9437)
+
+- Hospital episodes:
+
+  - [MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9030); [BCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773); [NCDS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8697)
+
+- [School inspections data in the MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9436)
+
+- [NEST pension data in Understanding Society](https://datacatalogue.ukdataservice.ac.uk/studies/study/9127)
+
+- [Linked housing data on ReShare](https://datacatalogue.ukdataservice.ac.uk/studies/study/854899) 
+
+
 ## Additional resources
 
 -   [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/)
+-   [Administrative Data Research UK](https://www.adruk.org/)
 -   [NHS Hospital Episode Statistics](https://digital.nhs.uk/services/hospital-episode-statistics#:~:text=Hospital%20Episode%20Statistics%20(HES)%20is,at%20NHS%20hospitals%20in%20England.)
--   OFSTED Page
+-   [OFSTED](https://www.gov.uk/government/organisations/ofsted)
 -   [SAIL](https://saildatabank.com/): Secure Anonymised Information Linkage (Wales)
--   Health data for cohort surveys (CLS presentation)
+-   [Cohort surveys data linkage programme page](https://cls.ucl.ac.uk/data-access-training/linked-data/our-data-linkage-programme)
 -   [Integrated Data Service](https://app.integrateddataservice.gov.uk/data-catalogue)
+
 
 ## {.center style="text-align: center;"} 
 
