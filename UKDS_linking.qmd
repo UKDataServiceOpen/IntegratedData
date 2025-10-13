@@ -40,147 +40,155 @@ format:
 #      data-background-opacity: ".5"
 filters:
   - reveal-header
-
 ---
 
 ## Plan of the presentation
 
-1. Most common surveys  with integrated data
-2. Typical data integrated with surveys
-3. Accessing secure integrated datasets
+::: {.notes}
+Hello and welcome to this presentation by the UK DS
+My name is Pierre Walthéry, I work at the traning and user support wing of UKDS
+Today I would like to talk about three main topics
+:::
 
+1.  Most common surveys with integrated data
+2.  Typical data integrated with surveys
+3.  Accessing secure integrated datasets
 
 # Introduction
 
 Integrated data:
 
-- When we add non survey data to survey data
+-   When we add non survey data to survey data
 
-  - Whether part of the original data collection or not
-  - Whether primary or secondary 
-  - Whether same unit of analysis or not
-  - Validation or enhancement (Benzeval et al 2020)
+    -   Whether part of the original data collection or not
+    -   Whether primary or secondary
+    -   Whether same unit of analysis or not
+    -   Validation or enhancement (Benzeval et al 2020)
 
-- Typically: administrative, biometric, social media data
-- Examples: accelerometer, genetic data, individual NHS or PAYE records...  
-- This talk mostly deals with integrated data *available at the UK Data Service* 
+-   Typically: administrative, biometric, social media data
+
+-   Examples: accelerometer, genetic data, individual NHS or PAYE records...\
+
+-   This talk mostly deals with integrated data *available at the UK Data Service*
 
 # Part 1
+
 ![](pics/part_1.png){fig-alt="Section title with icons: What are the surveys with integrated data?"}
-
-
 
 ## Overview
 
-- Depends on:
+-   Depends on:
 
-  - The kind of data linked to the surveys ie mainstream topic, availability...
-  - The survey itself (i.e. does it include  the required linking information / user consent)
-  - ... Scope of the surveys ie is linkage part of the original data collection , was it intended or is it a post hoc project?
-  - For a variety of reasons - more straightforward
+    -   The topic covered by the  data linked to the surveys ie high level of interest, ease of access...
+    -   The survey itself (i.e. does it include the required linking information / user consent)
+    -   ... Scope of the surveys ie is linkage part of the original data collection, was it intended or is it a subsequent project?
 
-- Major longitudinal studies:
+-   Major longitudinal studies:
 
-  - Birth Cohort studies
-  - Next Steps and ELSA
-  - Understanding Society
-  
-- A few large scale cross-sectional  surveys such as:
+    -   For a variety of reasons - more straightforward
+    -   Birth Cohort studies
+    -   Next Steps and ELSA
+    -   Understanding Society
 
-  - ASHE (Annual Survey of Hours and Earnings)
-  - Health Survey for England
-  - Family Resources Survey
+-   A few large scale cross-sectional surveys such as:
+
+    -   ASHE (Annual Survey of Hours and Earnings)
+    -   Family Resources Survey
+    -   Scottish Health Survey (project)
+
 
 ## Birth cohort studies
 
-- Follow a sample of individuals*  over their whole life
-- Born on a specific week of 1958(NCDS), 1970(BCS), 1989-90 (Next Steps), 2000 (MCS), 2026 (?)
-- MCS 
-  - ~ 19,000 children originally (between June 2001 and Jan 2003)
-  - 7 'sweeps' 9 months then at 3, 5, 7, 11, 14, years old
-  - parent and child interviews
-  - Focuses on education, skills and health, truancy, cognitive ability biological measurements in additional to traditional socio-economic data
-  
+-   Follow a sample of individuals\* over their whole life
+-   Born on a specific week of 1958(NCDS), 1970(BCS), 1989-90 (Next Steps), 2000 (MCS), 2026 (?)
+-   MCS
+    -   \~ 19,000 children originally (between June 2001 and Jan 2003)
+    -   7 'sweeps' 9 months then at 3, 5, 7, 11, 14, years old
+    -   parent and child interviews
+    -   Focuses on education, skills and health, truancy, cognitive ability, biological measurements 
+    -   ... In addition to traditional socio-economic and demographic data
+
 ## Understanding Society
 
-- The largest  longitudinal study representative of the UK population
-- Initial sample size: 40K households, 100K individuals
-- 14 waves so far: 2009-23; includes BHPS data 1991-02
-- Ethnic minority boost samples; Innovation Panel
-- Very wide range of topics covered:
+-   The largest longitudinal study representative of the UK population
+-   Initial sample size: 40K households, 100K individuals
+-   14 waves so far: 2009-23; includes BHPS data 1991-02
+-   Ethnic minority boost samples; Innovation Panel
+-   Very wide range of topics covered:
 
-  - Employment, income, benefits, savings, debt, and assets
-  - Health, well-being, and health behaviours
-  - Housing, housing costs, and dwelling characteristics
-  - Family, partnerships, caring responsibilities,
-  - Education, training
-  - Expenditure, consumption, deprivation
-  - Social attitudes, values, political opinions
-  - Transport, mobility, and commuting patterns
-  - Environmental behaviours, and related attitudes
+    -   Employment, income, benefits, savings, debt, and assets
+    -   Health, well-being, and health behaviours
+    -   Housing, housing costs, and dwelling characteristics
+    -   Family, partnerships, caring responsibilities,
+    -   Education, training
+    -   Expenditure, consumption, deprivation
+    -   Social attitudes, values, political opinions
+    -   Transport, mobility, and commuting patterns
+    -   Environmental behaviours, and related attitudes
 
 # Part 2
+
 ![](pics/part_2.png){fig-alt="Section title with icons: What kind of non-survey data is  integrated   with UKDS surveys?"}
 
+## Overview
 
-## Overview 
+-   Administrative records
 
-- Administrative records
- 
-  - ie data collected by a public ie the state controlled authority: government department, the NHS
-  - Health: NHS SHS: medical records ie in/outpatient attendance hospital episodes, maternity
-  - Education: National Pupil Database, school profile/teacher survey; student loan data, OFSTED data
-  - Pollution; green space deciles; PAYE data
-- Non survey measurement: energy, health, behavioural
-- Social media/Digital trace
+    -   ie data collected by a public ie state controlled authority: government department, the NHS
+    -   Health: NHS, SHS: medical records ie outpatient attendance, hospitalisation episodes, maternity
+    -   Education: National Pupil Database, school profile/teacher survey; student loan data, OFSTED data
+    -   Pollution; green space deciles; PAYE data
+
+-   Non survey measurement: energy consumption, health, behavioural
+
+-   Social media/digital trace
 
 ## What is on offer: examples
-![](pics/admin.png){.absolute top=100 left=50 width=250}
-![](pics/edu.png){.absolute top=400 left=50 width=250}
-![](pics/hlt.png){.absolute top=100 left=400 width=250}
-![](pics/paye.png){.absolute top=400 left=400 width=350}
+::: {.notes}
+Let us now go through a few concrete example of linked data that can be accessed via the UK Data Service
+:::
 
-
+![](pics/admin.png){.absolute top="100" left="50" width="250"} ![](pics/edu.png){.absolute top="400" left="50" width="250"} ![](pics/hlt.png){.absolute top="100" left="400" width="250"} ![](pics/paye.png){.absolute top="400" left="400" width="350"}
 
 ## 1. Genetic risk data
 
-- Polygenic scores (PGI) about health and social outcomes
-- Gene combinations associated with probability of certain outcomes  
+-   Polygenic scores (PGI) about health and social outcomes
+-   Probability of some outcomes given someone's genetic traits
 
-  - 45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
-  
-  - Available on the  Birth Cohorts and Next Steps datasets
-  
-  - Subsamples limited to 'Europeans' from a genetic perspective
-
-:::  aside
-  *More information*: [Morris TT et al (2025)](https://doc.ukdataservice.ac.uk/doc/9437/mrdoc/pdf/ukds_user_guide_cls_pgis.pdf) 
+    -   A vector of probabilities attached to respondents' record according to their their genetic information 
+    -   45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
+    -   Available on the Birth Cohorts and Next Steps datasets
+    -   Subsamples limited to genetic 'Europeans' 
+    
+::: aside
+*More information*: [Morris TT et al (2025)](https://doc.ukdataservice.ac.uk/doc/9437/mrdoc/pdf/ukds_user_guide_cls_pgis.pdf)
 :::
 
 ## 2. Hospital episodes data
 
-- NHS data about all hospital admissions in England. 
-- Four datasets: 
-  - Episodes of using: Accident and Emergency ; Admitted Patient Care; Adult Critical Care; Outpatients
-  - Mostly available for 2007/9-2023
-  
-- Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
-- Available for the NCDS Birth Cohort 
+-   NHS data about all hospital admissions in England.
+-   Four datasets:
+    -   Episodes of using: Accident and Emergency ; Admitted Patient Care; Adult Critical Care; Outpatients
+    -   Mostly available for 2007/9-2023
+-   Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
+-   Available for the NCDS Birth Cohort
 
 ::: aside
-*More  information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf) 
-::: 
+*More information*: [Kerry- Barnard et al (2025)](https://doc.ukdataservice.ac.uk/doc/8697/mrdoc/pdf/ncds_hes_user_guide_2025_v3.pdf)
+:::
 
 ## 3. School inspection data
 
-- OFSTED 'State of the nation': anonymised data on latest schools inspections outcomes of 22,000 open schools
-- Linked with the MCS, currently covers years 2005 to 2019
-- Data on a wide range of topics. such as:
+-   OFSTED 'State of the nation': anonymised data on latest schools inspections outcomes of 22,000 open schools
 
-  <!-- - Quality of teaching, learning and assessment -->
-  - Effectiveness of leadership and management
-  - Pupils' achievement (aggregated) (2005-2015)
-  - Behaviour and safety of pupils (2005-2015)
+-   Linked with the MCS, currently covers years 2005 to 2019
+
+-   Data on a wide range of topics i.e.:
+
+    -   Quality of teaching, learning and assessment
+    -   Effectiveness of leadership and management
+    -   Pupils' achievement (aggregated) (2005-2015)
+    -   Behaviour and safety of pupils (2005-2015)
 
 ::: aside
 *More information* [Peters A et al (2025)](https://doc.ukdataservice.ac.uk/doc/9436/mrdoc/pdf/mcs_ofsted_user_guide_v1.pdf)
@@ -188,42 +196,126 @@ Integrated data:
 
 ## 4. NEST pension data
 
-- Main employer pensions scheme for UK employees 
-- Covers 1,000,000 employers, 11 millions employees
-- Linked to consenting Understanding Wave 11 respondents (about 12,000)
-- Data about:
+-   Main employer pensions scheme for UK employees
 
-  - Employer and employee characteristics
-  - Current pension status 
-  - Pension contributions characteristics
+-   Covers 1,000,000 employers, 11 millions employees
+
+-   Linked to consenting Understanding Wave 11 respondents (about 12,000)
+
+-   Data about:
+
+    -   Employer and employee characteristics
+    -   Current pension status
+    -   Pension contributions characteristics
 
 ::: aside
-*More information: * [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
-::: 
-## 5. Studies deposited on ReShare
+*More information:* [ISER (2023)](https://doc.ukdataservice.ac.uk/doc/9127/mrdoc/pdf/9127_user_guide.pdf)
+:::
 
-::: {layout-ncol=2}
+## 5. Studies deposited on ReShare
+::: {layout-ncol="2"}
 ![](pics/reshare1.png)
 
 ![](pics/reshare2.png)
 :::
 
+- Example: data about property characteristics linked to transaction ie price  data
+- 5,732,838 transactions in England and Wales, 79% of the total between 2011 and 2019,
 
+::: {.notes}
+So far I have mentioned large scale longitudinal studies. I also need to mention another kind of data held at UK Data Service: ReShare. 
+Anyone who produces ESRC-funded data is required to have it deposited with the UKDS
+Some of these studies include linked data.
+This particular dataset links the Land Registry Price Paid Data (PPD) with property size information from the official open Domestic Energy Performance Certificates (EPCs).
+Enables more detailed, richer analysis of the housing market and property purchases.
+:::
 
 # Part 3
+
+::: {.notes}
+
+- So far I have talked about the data that we hold, but it is also interesting to know how to access it.
+- The majority of lnked data - exception of housing transactions) is highly sensitive, contains personal information at risk of disclosure according to GDPR.
+- Special, restricted conditions of access have been set out in order to protect the anonymity of respondents.
+
+:::
+
 ![](pics/part_3.png){fig-alt="Section title with icons: accessing secure integrated dataset"}
 
 ## Secure datasets at the UK Data Service
 
-- A couple of slides on this (Waiting for  Essex )
+
+-   Access via encrypted web-based interface (\<Citrix VPN technology)
+
+-   No data download, access only from organisational desktop, in the UKDA Safe Room, one of the SafePods across the UK, and abroad via partner organisations
+
+-   Outputs subject to Statistical Disclosure Control (SDC)
+
+## The application process
+
+![](pics/test_pic2.png)
 
 
+## Application components
+
+::::: r-stack
+::: {data-id="box1" style="background: #2780e3; width: 1000px; height: 80px;"}
+:::
+
+::: {data-id="box2" style="background: #2780e3; width: 1000px; height: 80px;"}
+:::
+
+-   Project application
+
+-   Accreditated researcher
+
+-   Safe researcher training
+
+-   Secure access user agreement
+
+-   Secure Lab account setup
+:::::
+
+## Safe researcher training
+
+The course we recognise as valid for SecureLab access is the *Safe Researcher training (SRT) course* which covers:
+
+-   Data security and personal responsibility, including legal background, security model, breaches and penalties.
+
+-   Statistical Disclosure Control – how to make statistical outputs safe and which principles are used.
+
+-   Using the SecureLab – how to use the interface and how to prepare and request data imports and suitable statistical outputs
+
+## Secure access user agreement
+
+-   Legally binding contract between the user, their organisation and the University of Essex
+
+-   It is a per person, per organisation agreement.
+
+-   Outlines the T&Cs of use of Secure Lab and includes:
+
+    -   The  user will complete the mandatory SRT training.
+    -   Information about the  user’s security responsibilities.
+    -   Information about penalties and breaches
+    -   Our outputs release policy.
+    -   Our citation and copyright requirements.
 
 ## Additional resources
 
-- [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/)
-- [NHS Hospital Episode Statistics](https://digital.nhs.uk/services/hospital-episode-statistics#:~:text=Hospital%20Episode%20Statistics%20(HES)%20is,at%20NHS%20hospitals%20in%20England.)
-- OFSTED Page
-- [SAIL](https://saildatabank.com/): Secure Anonymised Information Linkage (Wales)
-- Health data for cohort surveys (CLS presentation)
-- [Integrated Data Service](https://app.integrateddataservice.gov.uk/data-catalogue)
+-   [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/)
+-   [NHS Hospital Episode Statistics](https://digital.nhs.uk/services/hospital-episode-statistics#:~:text=Hospital%20Episode%20Statistics%20(HES)%20is,at%20NHS%20hospitals%20in%20England.)
+-   OFSTED Page
+-   [SAIL](https://saildatabank.com/): Secure Anonymised Information Linkage (Wales)
+-   Health data for cohort surveys (CLS presentation)
+-   [Integrated Data Service](https://app.integrateddataservice.gov.uk/data-catalogue)
+
+## {.center style="text-align: center;"} 
+
+
+Thank you for your attention
+
+
+
+
+        Any questions: help@ukdataservice.ac.uk
+
