@@ -24,6 +24,7 @@ include-after-body:
 format: 
   revealjs:
     scrollable: true
+#    theme: [default, custom.scss]
 #   header-logo: "pics/UKDS_Logos_Col_Grey_300dpi.png"
 #    logo:
     logo: 
@@ -328,18 +329,17 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
 
 - Hospital episodes:
 
-  - [MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9030); [BCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773); [NCDS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8697)
+  - [MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9030); [BCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773);
+  - [NCDS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8697)
 
 - [School inspections data in the MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9436)
-
 - [NEST pension data in Understanding Society](https://datacatalogue.ukdataservice.ac.uk/studies/study/9127)
-
 - [Linked housing data on ReShare](https://datacatalogue.ukdataservice.ac.uk/studies/study/854899) 
 
 
 ## Additional resources
 
--   [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/)
+-   [UK Longitudinal Linkage Collaboration](https://explore.ukllc.ac.uk/){class="underline-link"}
 -   [Administrative Data Research UK](https://www.adruk.org/)
 -   [NHS Hospital Episode Statistics](https://digital.nhs.uk/services/hospital-episode-statistics#:~:text=Hospital%20Episode%20Statistics%20(HES)%20is,at%20NHS%20hospitals%20in%20England.)
 -   [OFSTED](https://www.gov.uk/government/organisations/ofsted)

@@ -42,3 +42,7 @@
   text-align: center;
   font-size: 50px;
 }
+
+.reveal .slides section a {
+  text-decoration: underline;
+}
