@@ -55,22 +55,20 @@ Today I would like to talk about three main topics
 2.  Typical data integrated with surveys
 3.  Accessing secure integrated datasets
 
-# Introduction
+## Integrated data
 
-Integrated data:
-
--   When we add non survey data to survey data
-
+  - When we add non survey data to survey data
+  
     -   Whether part of the original data collection or not
     -   Whether primary or secondary
-    -   Whether same unit of analysis or not
+    -   Whether same unit of analysis as the survey  or not
     -   Validation or enhancement (Benzeval et al 2020)
 
--   Typically: administrative, biometric, social media data
+  - Administrative, biometric, geographic, social media data
+  
+    - Accelerometer, genetic data, individual NHS/PAYE records
 
-    - Accelerometer, genetic data, individual NHS or PAYE records...
-
--   This talk mostly deals with integrated data *available at the UK Data Service*
+- This talk mostly deals with integrated data *available at the UK Data Service*
 
 # Part 1
 
@@ -100,12 +98,12 @@ Integrated data:
 
 ## Birth cohort studies
 
--   Follow a sample of individuals\* over their whole life
+-   Follow a sample of individuals over their whole life
 -   Born during  a specific period of 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (?)
--   MCS
+-   Millenium Cohort Study (MCS)
     -   \~ 19,000 children  (born between June 2001 and Jan 2003)
     -   7 'sweeps' 9 months then at 3, 5, 7, 11, 14, years old
-    -   parent and child interviews
+    -   Parent and child interviews
     -   Focuses on education, skills and health, truancy, cognitive ability, biological measurements 
     -   ... In addition to traditional socio-economic and demographic data
 
@@ -113,7 +111,7 @@ Integrated data:
 
 -   The largest longitudinal study representative of the UK population
 -   Initial sample size: 40K households, 100K individuals
--   14 waves so far: 2009-23; includes BHPS data 1991-02
+-   14 waves so far: 2009-23; includes BHPS data 1991-2009
 -   Ethnic minority boost samples; Innovation Panel
 -   Very wide range of topics covered:
 
@@ -230,9 +228,9 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## 5. Studies deposited on ReShare
 ::: {layout-ncol="2"}
-![](pics/reshare1.png){fig-alt: "Screenshot from the output of a search on the UK Data Service catalogue"}
+![](pics/reshare1.png){fig-alt="Screenshot from the output of a search on the UK Data Service catalogue"}
 
-![](pics/reshare2.png){fig-alt: "Screenshot of a study deposited via ReShare on the UKDS website "}
+![](pics/reshare2.png){fig-alt="Screenshot of a study deposited via ReShare on the UKDS website "}
 :::
 
 - Example: data about property characteristics linked to transaction ie price  data
@@ -256,10 +254,11 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 :::
 
-![](pics/part_3.png){fig-alt="Section title with icons: accessing secure integrated dataset"}
+![](pics/part_3.png){height=50% width=50% fig-alt="Section title with icons: accessing secure integrated dataset"}
+
 ## Searching for data
 
-![](pics/search.png){fig-alt: "Screenshot from the new data search engine on the UK Data Service website"}
+![](pics/search.png){height=90% width=90%  fig-alt="Screenshot from the new data search engine on the UK Data Service website"}
 
 ## Secure datasets at the UK Data Service
 
@@ -273,7 +272,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## The application process
 
-![](pics/test_pic2.png){fig-alt: "Image representing the application process for secure data"}
+![](pics/test_pic2.png){fig-alt="Image representing the application process for secure data"}
 
 
 ## Application components
@@ -314,7 +313,7 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
 
 -   Outlines the T&Cs of use of Secure Lab and includes:
 
-    -   The  user will complete the mandatory SRT training.
+    -   The  user has completed the mandatory SRT training.
     -   Information about the  user’s security responsibilities.
     -   Information about penalties and breaches
     -   Our outputs release policy.
