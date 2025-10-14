@@ -67,7 +67,7 @@ Integrated data:
 
 -   Typically: administrative, biometric, social media data
 
--   Examples: accelerometer, genetic data, individual NHS or PAYE records...\
+    - Accelerometer, genetic data, individual NHS or PAYE records...
 
 -   This talk mostly deals with integrated data *available at the UK Data Service*
 
@@ -79,14 +79,14 @@ Integrated data:
 
 -   Depends on:
 
-    -   The topic covered by the  data linked to the surveys ie high level of interest, ease of access...
+    -   The topic covered by the  data linked i.e. does it match common topics studied in surveys?
     -   The survey itself (i.e. does it include the required linking information / user consent)
-    -   ... Scope of the surveys ie is linkage part of the original data collection, was it intended or is it a subsequent project?
+    -   ... Scope of the surveys i.e. is linkage part of the original data collection,  or is it a subsequent project?
 
 -   Major longitudinal studies:
 
     -   For a variety of reasons - more straightforward
-    -   Birth Cohort studies
+    -   Birth cohort studies
     -   Next Steps and ELSA
     -   Understanding Society
 
@@ -100,9 +100,9 @@ Integrated data:
 ## Birth cohort studies
 
 -   Follow a sample of individuals\* over their whole life
--   Born on a specific week of 1958(NCDS), 1970(BCS), 1989-90 (Next Steps), 2000 (MCS), 2026 (?)
+-   Born during  a specific period of 1958(NCDS), 1970(BCS), 2000 (MCS), 2026 (?)
 -   MCS
-    -   \~ 19,000 children originally (between June 2001 and Jan 2003)
+    -   \~ 19,000 children  (born between June 2001 and Jan 2003)
     -   7 'sweeps' 9 months then at 3, 5, 7, 11, 14, years old
     -   parent and child interviews
     -   Focuses on education, skills and health, truancy, cognitive ability, biological measurements 
@@ -128,8 +128,16 @@ Integrated data:
 
 ## Other studies
 
-- Next Steps: 16,000 people in England born 1980-90, from secondary school age (i.e. 13-14) onwards; initially designed by DfE to examine determinants of school achievement
-- ELSA - English Longitudinal Study of Ageing: follows a sample of  19,000  people aged over 50 to understand all aspects of ageing in England. Started in 2002, biennial waves. Data on  physical and mental health (incl. well-being), financial aspects, and attitudes around ageing.
+- Next Steps (formerly Longitudinal Study of Young People in England - LSYPE): 
+
+  - 16,000 people in England born 1980-90, from secondary school age (i.e. 13-14) onwards; 
+  - Initially set up by DfE to examine determinants of school achievement
+
+- ELSA (English Longitudinal Study of Ageing): 
+
+  - Follows a sample of  19,000  people aged over 50 to understand all aspects of ageing in England. 
+  - Started in 2002, biennial waves. 
+  - Data on  physical and mental health (incl. well-being), financial circumstances, and attitudes about ageing.
 
 
 # Part 2
@@ -154,7 +162,7 @@ Integrated data:
 Let us now go through a few concrete example of linked data that can be accessed via the UK Data Service
 :::
 
-![](pics/admin.png){.absolute top="100" left="50" width="250"} ![](pics/edu.png){.absolute top="400" left="50" width="250"} ![](pics/hlt.png){.absolute top="100" left="400" width="250"} ![](pics/paye.png){.absolute top="400" left="400" width="350"}
+![](pics/admin.png){.absolute top="100" left="50" width="250" fig-alt="Image representing administrative data"} ![](pics/edu.png){.absolute top="400" left="50" width="250" fig-alt="Image representing educational data"} ![](pics/hlt.png){.absolute top="100" left="400" width="250" fig-alt="Image representing health data"} ![](pics/paye.png){.absolute top="400" left="400" width="350" fig-alt="Image representing PAYE data"}
 
 ## 1. Genetic risk data
 
@@ -163,7 +171,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 
     -   A vector of probabilities attached to respondents' record according to their their genetic information 
     -   45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
-    -   Available on the birth cohorts studies,  ELSA & Next Steps datasets
+    -   Available on the birth cohorts studies,  ELSA & Next Steps
     -   Subsamples limited to genetic 'Europeans' 
     
 ::: aside
@@ -203,7 +211,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 ## 4. NEST pension data
 
 -  (National Employment Saving Trust)
--   Main occupational (i.e. employer led) pensions scheme for UK employees
+<!-- -   Main occupational (i.e. employer led) pensions scheme for UK employees -->
 
 -   Covers 1,000,000 employers, 11 millions employees
 
@@ -221,9 +229,9 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## 5. Studies deposited on ReShare
 ::: {layout-ncol="2"}
-![](pics/reshare1.png)
+![](pics/reshare1.png){fig-alt: "Screenshot from the output of a search on the UK Data Service catalogue"}
 
-![](pics/reshare2.png)
+![](pics/reshare2.png){fig-alt: "Screenshot of a study deposited via ReShare on the UKDS website "}
 :::
 
 - Example: data about property characteristics linked to transaction ie price  data
@@ -248,6 +256,9 @@ Let us now go through a few concrete example of linked data that can be accessed
 :::
 
 ![](pics/part_3.png){fig-alt="Section title with icons: accessing secure integrated dataset"}
+## Searching for data
+
+![](pics/search.png){fig-alt: "Screenshot from the new data search engine on the UK Data Service website"}
 
 ## Secure datasets at the UK Data Service
 
@@ -261,7 +272,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## The application process
 
-![](pics/test_pic2.png)
+![](pics/test_pic2.png){fig-alt: "Image representing the application process for secure data"}
 
 
 ## Application components
@@ -308,9 +319,6 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
     -   Our outputs release policy.
     -   Our citation and copyright requirements.
 
-## Searching for data
-
-![](pics/search.png)
 
 ## Resources and links
 
@@ -346,7 +354,5 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
 Thank you for your attention
 
 
-
-
-        Any questions: help@ukdataservice.ac.uk
+  *Any questions: help@ukdataservice.ac.uk*
 
