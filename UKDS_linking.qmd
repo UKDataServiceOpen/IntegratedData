@@ -107,7 +107,7 @@ Today I would like to talk about three main topics
     -   Focuses on education, skills and health, truancy, cognitive ability, biological measurements 
     -   ... In addition to traditional socio-economic and demographic data
 
-## Understanding Society
+## Understanding Society (1)
 
 -   The largest longitudinal study representative of the UK population
 -   Initial sample size: 40K households, 100K individuals
@@ -118,12 +118,18 @@ Today I would like to talk about three main topics
     -   Employment, income, benefits, savings, debt, and assets
     -   Health, well-being, and health behaviours
     -   Housing, housing costs, and dwelling characteristics
+
+## Understanding Society (2)
+
+- Further topics:
+
     -   Family, partnerships, caring responsibilities,
     -   Education, training
     -   Expenditure, consumption, deprivation
     -   Social attitudes, values, political opinions
     -   Transport, mobility, and commuting patterns
     -   Environmental behaviours, and related attitudes
+
 
 ## Other studies
 
