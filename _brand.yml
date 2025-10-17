@@ -1,10 +1,10 @@
 color:
   palette:
     white: "#FFFFFF"
-    purple: "#742082"
+    purple: "#702082"
+    grey: "#4d4f4e"
   background: white
-  primary: purple
-  foreground: purple
+  foreground: grey
   
 logo:
   images:
@@ -18,5 +18,5 @@ typography:
       light: purple
       dark: purple
   fonts:
-      - family: "Open Sans"
+    - family: "Open Sans"
   
