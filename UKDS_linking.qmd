@@ -3,11 +3,10 @@ title: "Integrated Survey Data"
 subtitle: "Overview and conditions of access"
 author: 
   name: Pierre Walthéry
-#  url: https://ukdataservice.ac.uk/
 institute: UK Data Service
 
 date: "October 2025"
-date-format: MMMMYYYY
+date-format: MMMM YYYY
 brand: _brand.yml
 include-after-body:
   - text: |
@@ -15,6 +14,7 @@ include-after-body:
           window.addEventListener('load', function() {
             var logo = document.querySelector('.slide-logo');
             var url = 'https://ukdataservice.ac.uk';
+            logo.style.cursor = 'pointer';
             logo.addEventListener('click', function() {
               window.open(url, '_blank');
           });
@@ -24,21 +24,12 @@ include-after-body:
 format: 
   revealjs:
     scrollable: true
-#    theme: [default, custom.scss]
-#   header-logo: "pics/UKDS_Logos_Col_Grey_300dpi.png"
-#    logo:
     logo: 
       path: "pics/UKDS_Logos_Col_Grey_300dpi.png"
-#      logo-href: "https://ukdataservice.ac.uk"
       href: "https://ukdataservice.ac.uk"
       alt: "UK Data Service logo"
-    css: logo.css
+    css: ukds25.css
     embed-resources: true
-#    theme: [default, tooling.scss]
- 
-#    title-slide-attributes:    
-#      data-background-image: "pics/cloud.jpg"
-#      data-background-opacity: ".5"
 filters:
   - reveal-header
 ---
@@ -111,8 +102,8 @@ Today I would like to talk about three main topics
 
 -   The largest longitudinal study representative of the UK population
 -   Initial sample size: 40K households, 100K individuals
--   14 waves so far: 2009-23; includes BHPS data 1991-2009
--   Ethnic minority boost samples; Innovation Panel
+-   14 waves so far: 2009-23. Includes BHPS data 1991-2009
+-   Ethnic minority boost samples, innovation panel
 -   Very wide range of topics covered:
 
     -   Employment, income, benefits, savings, debt, and assets
@@ -133,9 +124,10 @@ Today I would like to talk about three main topics
 
 ## Other studies
 
-- Next Steps (formerly Longitudinal Study of Young People in England - LSYPE): 
+- Next Steps 
 
-  - 16,000 people in England born 1980-90, from secondary school age (i.e. 13-14) onwards; 
+  - Formerly Longitudinal Study of Young People in England - LSYPE 
+  - 16,000 people in England born 1980-90, from secondary school age (i.e. 13-14) onwards
   - Initially set up by DfE to examine determinants of school achievement
 
 - ELSA (English Longitudinal Study of Ageing): 
@@ -155,8 +147,8 @@ Today I would like to talk about three main topics
 
     -   ie *data collected by a public ie state controlled authority*: government department, the NHS
     -   Health: NHS, SHS: medical records ie outpatient attendance, hospitalisation episodes, maternity
-    -   Education: National Pupil Database, school profile/teacher survey; student loan data, OFSTED data
-    -   Pollution; green space deciles; PAYE data
+    -   Education: National Pupil Database, school profile/teacher survey, student loan data, OFSTED data
+    -   Pollution, green space deciles, PAYE data
 
 -   Non survey measurement: energy consumption, health, behavioural
 
@@ -175,7 +167,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 -   Probability of some outcomes given someone's genetic traits
 
     -   A vector of probabilities attached to respondents' record according to their their genetic information 
-    -   45 traits: ie health outcomes and behaviour; mental health and personality traits; Social outcomes
+    -   45 traits: ie health outcomes and behaviour, mental health and personality traits, social outcomes
     -   Available on the birth cohorts studies,  ELSA & Next Steps
     -   Subsamples limited to genetic 'Europeans' 
     
@@ -187,7 +179,7 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 -   NHS data about all hospital admissions in England.
 -   Four datasets:
-    -   Episodes of using: Accident and Emergency ; Admitted Patient Care; Adult Critical Care; Outpatients
+    -   Episodes of using: Accident and Emergency, Admitted Patient Care, Adult Critical Care, Outpatients
     -   Mostly available for 2007/9-2023
 -   Data on diagnosis, maternity, mortality, mental health, treatment’s length, deprivation etc.
 -   Available for the NCDS Birth Cohort
@@ -283,23 +275,12 @@ Let us now go through a few concrete example of linked data that can be accessed
 
 ## Application components
 
-::::: r-stack
-::: {data-id="box1" style="background: #2780e3; width: 1000px; height: 80px;"}
-:::
-
-::: {data-id="box2" style="background: #2780e3; width: 1000px; height: 80px;"}
-:::
-
 -   Project application
-
 -   Accreditated researcher
-
--   Safe researcher training
-
+-   <span style="background-color:#00A9CE; color:white; padding:0.2em 0.4em; border-radius:4px;">Safe researcher training</span>
 -   Secure access user agreement
-
 -   Secure Lab account setup
-:::::
+
 
 ## Safe researcher training
 
@@ -310,6 +291,16 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
 -   *Statistical Disclosure Control* – how to make statistical outputs safe and which principles are used.
 
 -   *Using the SecureLab* – how to use the interface and how to prepare and request data imports and suitable statistical outputs
+
+
+## Application components
+
+-   Project application
+-   Accreditated researcher
+-   Safe researcher training
+-   <span style="background-color:#00A9CE; color:white; padding:0.2em 0.4em; border-radius:4px;">Secure access user agreement</span>
+ -   Secure Lab account setup
+
 
 ## Secure access user agreement
 
@@ -330,11 +321,11 @@ The course we recognise as valid for SecureLab access is the *Safe Researcher tr
 
 - Polygenic scores:
 
-    - [ELSA](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773#details); [Next Steps](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848#details); [Millenium Cohort Study](https://datacatalogue.ukdataservice.ac.uk/studies/study/9437)
+    - [ELSA](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773#details), [Next Steps](https://datacatalogue.ukdataservice.ac.uk/studies/study/8848#details), [Millenium Cohort Study](https://datacatalogue.ukdataservice.ac.uk/studies/study/9437)
 
 - Hospital episodes:
 
-  - [MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9030); [BCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773);
+  - [MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9030),  [BCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8773),
   - [NCDS](https://datacatalogue.ukdataservice.ac.uk/studies/study/8697)
 
 - [School inspections data in the MCS](https://datacatalogue.ukdataservice.ac.uk/studies/study/9436)
